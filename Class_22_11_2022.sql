@@ -1,4 +1,4 @@
-#create database Anudip
+create database Anudip
 use Anudip;
 create table Student(id int primary key auto_increment, name varchar (20) not null, phone bigint(11) not null unique,
 email varchar(20) not null unique, address varchar(30) not null, dept varchar(20) not null);
